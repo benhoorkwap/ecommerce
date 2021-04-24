@@ -1,0 +1,178 @@
+/*
+    This stylesheet is applicable to devices of minimum viewport width of 780px
+*/
+
+
+/*
+    Use the border-box rather than content-box to obtain a computed box size.
+*/
+* {
+    box-sizing: border-box;
+}
+
+
+#root {
+    width: 100%;
+}
+
+
+/*
+    Select the page's header and apply the following rules
+*/
+header[class~="page"]{
+    height: calc(50px + 3.5vh);     /* compute the header's height to be 3% of viewport's height + 50px */
+
+ 
+
+    padding-top: 1.75vh;
+    padding-bottom: 1.75vh;
+}
+
+/* 
+    Select's the section first child of the header
+*/
+
+header > section {
+    height: 50px;
+
+    /* Pad items here to match width of main content */
+    padding-left: 168px;
+    padding-right: 168px;
+    
+
+}
+
+/*
+    Brand
+*/
+
+/*
+    Search
+*/
+
+
+/*
+    Login
+*/
+
+
+/*
+    Help
+*/
+
+
+/*
+    Cart
+*/
+
+div.flex { 
+    display: flex;
+}
+
+div.row {
+    flex-flow: row nowrap;
+}
+
+a {
+    margin: 0;
+}
+
+div.search {
+    width: 400px;
+    height: 40px;
+
+    margin-top: 10px;
+
+    border: 1px solid #a9a9a9;
+    border-radius: 8px;
+
+
+ 
+
+}
+
+svg.ic {
+   
+    margin: 7.5px 8px
+    
+}
+
+
+input[class|="search"] {
+    border: none;
+    height: calc(100% - 15px);
+    width: 100%;
+    margin: 7.5px 0;
+
+    font: normal normal ultra-condensed 14pt sans-serif;
+    color: #222;
+    outline: none;
+
+    background-color: transparent;
+}
+
+button[class|="search"] {
+    width: 80px;
+    height: 40px;
+    padding: 8px;
+    color: #fff;
+    background-color: green;
+    border: none;
+    margin: 8px 8px;
+
+    border-radius: 4px;
+
+    font: normal bold ultra-condensed 14pt sans-serif;
+}
+
+
+a.login {
+    height: 40px;
+    
+    width: 150px;
+
+    text-decoration-line: none;
+    color: #222;
+
+    padding-left: 8px;
+    padding-right: 8px;
+
+    margin-top: 8px;
+  
+
+    
+}
+
+a.login:hover{ 
+    background-color:#043927;
+    color: #fff;
+}
+
+span {
+    font: normal bold ultra-condensed 14pt sans-serif;
+
+    flex: 1;
+    
+    
+    padding-top: 19px;
+}
+
+
+
+
+/*
+    Main body. Use for control. Can delete when not needed.
+*/
+
+
+.main {
+    height: 100vh;
+
+    background-color: #a9a9a9;
+
+    width: calc(100% - 336px); /* To match 768px - min width of a tablet */ 
+
+    margin: 0px 168px;
+
+
+}

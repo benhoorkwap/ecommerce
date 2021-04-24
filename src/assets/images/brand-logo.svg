@@ -1,0 +1,19 @@
+
+
+<svg>
+<rect x="0" y="0" width="120" height="50" stroke-width="8" stroke="green" fill="transparent"></rect>
+</svg>
+
+<path d="M30, 12 h56 Q90,12 100,42 h-84 M30,12 Q26,12 16,42" stroke-width="2" stroke="green" fill="transparent"/>
+                                    <path d="M45, 20 Q60, 40 75, 20" stroke-width="3" stroke="green" fill="transparent"/>
+                                    <circle cx="45" cy="20" r="3" fill="green"/>
+                                    <circle cx="75" cy="20" r="3" fill="green"/>
+                                    <text class="text" x="105" y="42" fill="brown">B</text>
+                                    
+
+
+                                    
+                                <input
+                                    class="search-input" 
+                                    type="text"
+                                    placeholder="Search for products here..."/>
